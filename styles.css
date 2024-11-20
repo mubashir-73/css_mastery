@@ -1,0 +1,29 @@
+.box {
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 7px;
+  margin: 15px;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  background-color: #004958;
+  opacity: 0;
+}
+
+.box h2 {
+  color: #00c2cb;
+  font-size: 23px;
+  line-height: 0px;
+}
+
+.box p {
+  text-align: center;
+  width: 230px;
+  margin: 0px 0px 20 px 0px;
+  color: #e0ffff;
+}
+
+/* TODO: https://blog.openreplay.com/create-scroll-animations-with-just-css/?ref=dailydev */
